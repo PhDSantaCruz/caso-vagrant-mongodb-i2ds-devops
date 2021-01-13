@@ -1,0 +1,51 @@
+# StatCOV
+
+
+ StatCOV es una herramienta de análisis de datos de COVID-19  recopilados de diferentes fuente por la  Universidad Johns Hopkins (https://www.jhu.edu/).
+
+ Esta herramienta es de vital importancia para extraer conocimiento sobre el progreso del virus en las diferentes comunidades y cuidades del mundo
+
+Johns Hopkins publica los datos  gratuitamente.
+
+## Comenzando 🚀
+
+Puedes iniciar clinando el repocitorio:
+
+```
+git clone git@github.com:PhDSantaCruz/caso-vagrant-mongodb-i2ds-devops.git
+
+```
+
+### Pre-requisitos 📋
+
+StatCOV se ejecuta sobre Vagrant y VirtualBox por lo que debes instalar ambos: 
+
+
+
+Posteriormente se debe instalar el plugin vagrant share (https://www.vagrantup.com/docs/share)
+Para que vagrant share funcione, debes instalar ngrok (https://ngrok.com/) 
+
+Esta ocasión deberás crear el script en bash que aprovisiona el software. La documentación para apoyarse en realizar este script está disponible en : https://docs.rundeck.com/docs/administration/install/ 
+
+Las credenciales de acceso según la documentación son: admin/admin
+Se validará la instalación entrando vía web a Rundeck en la dirección:  http://192.168.124.100:4440/
+
+
+
+### Instalación 🔧
+
+Para desplegar el entorno se debe ejecutar la siguiente instrucción sobre el root path de Vagrant 
+
+```
+Vagran up
+```
+
+Dentro del archivo Vagrantfile se encuentra los detalles de la instalación del entorno
+
+
+#Licencia
+
+Open Software License 3.0
+
+
+
